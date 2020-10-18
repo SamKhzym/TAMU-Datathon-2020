@@ -105,7 +105,8 @@ for i in range(len(workshops.index)):
 
 
 
-
+st.markdown("# TAMU DATATHON 2020 FOR YOU PAGE")
+st.markdown("###### Gopi Chand and Samuel Khzym")
 try:
     user_index = int(st.text_input("Enter user index"))
 except:

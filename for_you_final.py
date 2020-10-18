@@ -12,14 +12,6 @@ query_features = pd.read_csv("query_features_2.csv")
 user_index = None
 
 data= pd.read_csv('test.csv')
-my_expander = st.beta_expander("Resources")
-link = '[Kaggle for Datasets and NoteBooks](http://kaggle.com)'
-my_expander.markdown(link, unsafe_allow_html=True)
-link = '[Google Colab for editing and model building](https://colab.research.google.com/)'
-my_expander.markdown(link, unsafe_allow_html=True)
-link = '[Streamlit to build WebApps](http://streamlit.io)'
-my_expander.markdown(link, unsafe_allow_html=True)
-clicked = my_expander.button('Get Resources')
 
 areas = ('None','other','education', 'insurance', 'energy','technology', 'healthcare', 'consulting', 'public_policy', 'aerospace','retail', 'sports', 'finance', 'transportation')
 universities = ('None','University of Waterloo','University of Florida','Texas A&M University','Harvard')
@@ -113,7 +105,8 @@ for i in range(len(workshops.index)):
 
 
 
-
+st.markdown("# TAMU DATATHON 2020 FOR YOU PAGE")
+st.markdown("###### Gopi Chand and Samuel Khzym")
 try:
     user_index = int(st.text_input("Enter user index"))
 except:
