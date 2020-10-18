@@ -78,7 +78,7 @@ if st.sidebar.button('submit'):
                     <h4 class="card-text-right">{sample.loc[p,'school']}</p>
                     <h4 class="card-text">{sample.loc[p,'classification']}</p>
                     <h4 class="card-text">{sample.loc[p,'technology_experience']}</p>
-                    <a href="#" class="btn btn-light">Request</a>
+                    <a href="#" class="btn btn-light">Request for Team</a>
                   </div>
                  </div>
             </div>
@@ -89,7 +89,7 @@ if st.sidebar.button('submit'):
                      <h4 class="card-text-right">{sample.loc[q,'school']}</p>
                      <h4 class="card-text">{sample.loc[q,'classification']}</p>
                      <h4 class="card-text">{sample.loc[p,'technology_experience']}</p>
-                     <a href="#" class="btn btn-light">Request</a>
+                     <a href="#" class="btn btn-light">Request for Team</a>
                    </div>
                   </div>
              </div>
