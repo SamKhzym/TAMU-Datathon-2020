@@ -1,48 +1,48 @@
-,query,intro_py_count,intro_nn_count,reinforcement_count,cnn_seg_count,stats_ds_count,wrangling_count,visualization_count,ds_start_count,story_data_td_count,win_tamu_count,story_data_bootcamp_count,job_ds_count,ml_theory_count,ml_applied_count,intro_nlp_count,ml_interpret_count,recc_engine_count,huca_count,ml_start_count,model_interpret_count,nlp_count,workshop
-0,Using machine learning,0,1,1,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,Machine Learning Part 2/2: Applied
-1,underlying math,0,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,Machine Learning Part 1/2: Theory
-2,The math portion,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,Machine Learning Part 1/2: Theory
-3,TensorFlow,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Intro to Neural Networks
-4,Statisticd,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Stats for Data Scientists
-5,Sampling bias,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Stats for Data Scientists
-6,Python beginners class,2,1,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Introduction to Python
-7,NLP,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Natural Language Processing
-8,Neural Networks,0,1,1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,Intro to Neural Networks
-9,Natural language processing,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Natural Language Processing
-10,topics in deep learning,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Intro to Neural Networks
-11,machine learning,0,1,1,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,Machine Learning Part 1/2: Theory
-12,More detail about high dimensional data and related theory,0,0,0,0,1,0,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,Hacking Unsupervised Custering Algorithms
-13,data wrangling topics,0,0,0,0,1,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,Data Wrangling
-14,data visualization techniques,0,0,0,0,0,0,1,1,0,0,0,2,0,0,0,0,0,0,0,0,0,Data Visualization
-15,basics about the programs that organize the data like Panda,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,Data Wrangling
-16,"Machine learning, image processing",0,1,1,1,1,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,CNN's and Segmentation
-17,Machine learning,0,1,1,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,Machine Learning Part 1/2: Theory
-18,Logistical regression vs linear,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,Machine Learning Part 1/2: Theory
-19,Intro to Python,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Introduction to Python
-20,Implementing neural nets and using machine learning libraries.,0,1,1,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,Intro to Neural Networks
-21,Hyperparameter tuning,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Machine Learning Part 2/2: Applied
-22,"How to visually analyze the data, and what I could mean.",0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,Data Visualization
-23,"how to start analyzing the data,",0,0,0,0,1,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,Data Wrangling
-24,How to clean data,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,Data Wrangling
-25,How to make CSV files and download and access these downloads.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Wrangling
-26,How to get a Data Science job,0,0,0,0,0,1,0,1,1,0,1,2,0,0,0,0,0,0,0,0,0,Getting a Job in Data Science
-27,how to do machine learning models,0,1,1,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,Machine Learning Part 1/2: Theory
-28,how to do clustering,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,Hacking Unsupervised Custering Algorithms
-29,How to build a career in data science,0,0,0,0,1,1,0,1,1,0,1,2,0,0,0,0,0,0,0,0,0,Getting a Job in Data Science
-30,How to approach an open ended question or data set,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,Storytelling with Data
-31,how to analyze image / plots in jupyter,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Wrangling
-32,how is unsupervised learning used in industry,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,Hacking Unsupervised Custering Algorithms
-33,"Ensemble models, stochastic models",0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Machine Learning Part 2/2: Applied
-34,what are ensemble methods,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Machine Learning Part 2/2: Applied
-35,what is boosting,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Machine Learning Part 2/2: Applied
-36,getting started in deep Learning,0,1,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Intro to Neural Networks
-37,Data Mining,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,Data Wrangling
-38,data imputation,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,Data Wrangling
-39,computer vision,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,CNN's and Segmentation
-40,Collecting data samples yourself,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,Data Wrangling
-41,Clustering,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,Hacking Unsupervised Custering Algorithms
-42,Building an ML model,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Intro to Neural Networks
-43,Approximation power of neutral nets,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Intro to Neural Networks
-44,A primer into Data Science,0,0,0,0,1,1,0,1,1,0,1,1,0,0,0,0,0,0,0,0,0,Data Wrangling
-45,how to deal with missing data,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,Data Wrangling
-46,stochastic models,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Stats for Data Scientists
+,query,intro_py_count,intro_nn_count,reinforcement_count,cnn_seg_count,stats_ds_count,wrangling_count,visualization_count,ds_start_count,story_data_td_count,win_tamu_count,story_data_bootcamp_count,job_ds_count,ml_theory_count,ml_applied_count,intro_nlp_count,ml_interpret_count,recc_engine_count,huca_count,ml_start_count,model_interpret_count,nlp_count,workshop,class
+0,Using machine learning,0,1,1,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,Machine Learning Part 2/2: Applied,ML
+1,underlying math,0,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,Machine Learning Part 1/2: Theory,ML
+2,The math portion,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,Machine Learning Part 1/2: Theory,ML
+3,TensorFlow,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Intro to Neural Networks,DL
+4,Statisticd,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Stats for Data Scientists,DS
+5,Sampling bias,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Stats for Data Scientists,DS
+6,Python beginners class,2,1,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Introduction to Python,CS
+7,NLP,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Natural Language Processing,ML
+8,Neural Networks,0,1,1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,Intro to Neural Networks,DL
+9,Natural language processing,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Natural Language Processing,ML
+10,topics in deep learning,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Intro to Neural Networks,DL
+11,machine learning,0,1,1,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,Machine Learning Part 1/2: Theory,ML
+12,More detail about high dimensional data and related theory,0,0,0,0,1,0,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,Hacking Unsupervised Custering Algorithms,ML
+13,data wrangling topics,0,0,0,0,1,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,Data Wrangling,DS
+14,data visualization techniques,0,0,0,0,0,0,1,1,0,0,0,2,0,0,0,0,0,0,0,0,0,Data Visualization,DS
+15,basics about the programs that organize the data like Panda,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,Data Wrangling,DS
+16,"Machine learning, image processing",0,1,1,1,1,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,CNN's and Segmentation,DL
+17,Machine learning,0,1,1,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,Machine Learning Part 1/2: Theory,ML
+18,Logistical regression vs linear,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,Machine Learning Part 1/2: Theory,ML
+19,Intro to Python,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Introduction to Python,CS
+20,Implementing neural nets and using machine learning libraries.,0,1,1,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,Intro to Neural Networks,DL
+21,Hyperparameter tuning,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Machine Learning Part 2/2: Applied,ML
+22,"How to visually analyze the data, and what I could mean.",0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,Data Visualization,DS
+23,"how to start analyzing the data,",0,0,0,0,1,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,Data Wrangling,DS
+24,How to clean data,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,Data Wrangling,DS
+25,How to make CSV files and download and access these downloads.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Wrangling,DS
+26,How to get a Data Science job,0,0,0,0,0,1,0,1,1,0,1,2,0,0,0,0,0,0,0,0,0,Getting a Job in Data Science,Industry
+27,how to do machine learning models,0,1,1,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,Machine Learning Part 1/2: Theory,ML
+28,how to do clustering,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,Hacking Unsupervised Custering Algorithms,ML
+29,How to build a career in data science,0,0,0,0,1,1,0,1,1,0,1,2,0,0,0,0,0,0,0,0,0,Getting a Job in Data Science,Industry
+30,How to approach an open ended question or data set,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,Storytelling with Data,Industry
+31,how to analyze image / plots in jupyter,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Wrangling,DS
+32,how is unsupervised learning used in industry,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,Hacking Unsupervised Custering Algorithms,ML
+33,"Ensemble models, stochastic models",0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Machine Learning Part 2/2: Applied,ML
+34,what are ensemble methods,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Machine Learning Part 2/2: Applied,ML
+35,what is boosting,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Machine Learning Part 2/2: Applied,ML
+36,getting started in deep Learning,0,1,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Intro to Neural Networks,DL
+37,Data Mining,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,Data Wrangling,DS
+38,data imputation,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,Data Wrangling,DS
+39,computer vision,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,CNN's and Segmentation,DL
+40,Collecting data samples yourself,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,Data Wrangling,DS
+41,Clustering,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,Hacking Unsupervised Custering Algorithms,ML
+42,Building an ML model,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Intro to Neural Networks,DL
+43,Approximation power of neutral nets,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Intro to Neural Networks,DL
+44,A primer into Data Science,0,0,0,0,1,1,0,1,1,0,1,1,0,0,0,0,0,0,0,0,0,Data Wrangling,DS
+45,how to deal with missing data,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,Data Wrangling,DS
+46,stochastic models,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Stats for Data Scientists,DS
