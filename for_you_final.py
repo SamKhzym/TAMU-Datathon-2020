@@ -19,7 +19,6 @@ link = '[Google Colab for editing and model building](https://colab.research.goo
 my_expander.markdown(link, unsafe_allow_html=True)
 link = '[Streamlit to build WebApps](http://streamlit.io)'
 my_expander.markdown(link, unsafe_allow_html=True)
-clicked = my_expander.button('Get Resources')
 
 areas = ('None','other','education', 'insurance', 'energy','technology', 'healthcare', 'consulting', 'public_policy', 'aerospace','retail', 'sports', 'finance', 'transportation')
 universities = ('None','University of Waterloo','University of Florida','Texas A&M University','Harvard')
