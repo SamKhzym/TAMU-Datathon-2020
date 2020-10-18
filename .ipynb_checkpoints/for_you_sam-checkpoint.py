@@ -9,6 +9,7 @@ import random, math
 raw = pd.read_csv('applicants.csv')
 workshops = pd.read_csv('workshops.csv')
 query_features = pd.read_csv("query_features_2.csv")
+user_index = None
 
 def find_word_substrings(tag_list, query):
     count = 0
@@ -64,11 +65,11 @@ def get_workshops(track, experience):
     else: return workshop_list[0:3]
     
 def get_display_text(app):
-    if type(app["workshop_suggestions"]) == float:
+    if type(raw.iloc[user_index]["workshop_suggestions"]) == float:
         return "Hm... It doesn't look like you've given us any info as to what kind of workshops you'd like to see. Feel free to search up a topic of interest in the search bar above and see what you get!"
     
     else:
-        return ("Because you suggested that you were interested in workshops about  \"*%s*\"  and your experience with data science is \n  *%s*:" % (applicant["workshop_suggestions"], experience[applicant["datascience_experience"]]))
+        return ("Because you suggested that you were interested in workshops about  \"*%s*\"  and your experience with data science is \n  *%s*, here are a couple of workshops that you might find pretty awesome:" % (raw.at[user_index, "workshop_suggestions"], experience[applicant["datascience_experience"]]))
 
     
     
@@ -78,9 +79,6 @@ experience = ["beginner", "amateur", "advanced", "expert"]
 tags_dict = {}
 for i in range(len(workshops.index)):
     tags_dict[str(workshops.iloc[i]["workshop_short"])] = (workshops.iloc[i]["tags"]).split(", ")
-
-
-user_index = None
 
 
 
@@ -98,10 +96,15 @@ if user_index != None:
     ## Workshop Recommendations""")
     
     workshop_query = st.text_input("What workshops do you want to attend?")
+    if workshop_query != "":
+        raw.at[user_index, "workshop_suggestions"] = workshop_query
     
     st.markdown("Not sure where to start? How about you kick things off right by attending some awesome workshops you might be interested in! :eyes:")
     
     st.markdown("%s" % get_display_text(applicant))
     
-    if type(applicant["workshop_suggestions"]) != float:
-        st.write(get_workshops(get_app_workshop_data(user_index), applicant["datascience_experience"]))
+    if type(raw.iloc[user_index]["workshop_suggestions"]) != float:
+        workshops = get_workshops(get_app_workshop_data(user_index), applicant["datascience_experience"])
+        
+        for i in range(len(workshops)):
+            st.markdown("### • %s" % (workshops[i]))
