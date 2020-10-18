@@ -19,6 +19,7 @@ year = ('None','Fr', 'Ma', 'PhD', 'Sr', 'O', 'So', 'Jr')
 applications = pd.read_csv('intermediate_applications.csv')
 sk = pd.read_csv('skills.csv')
 
+st.sidebar.markdown("### Cluster Connections Filters")
 aoi = st.sidebar.selectbox("SELCET BY AREA OF INTEREST",areas)
 uni = st.sidebar.selectbox("SELCET BY UNIVERSITY",universities)
 grade = st.sidebar.selectbox("SELCET BY YEAR",year)
@@ -131,6 +132,8 @@ if user_index != None:
         
         for i in range(len(workshops)):
             st.markdown("### • %s" % (workshops[i]))
+        if len(workshops) == 0:
+            st.markdown("### • Sorry, we couldn't find anything :(")
 
 st.markdown("""## Cluster Connections""")
 st.markdown("Trying to find a partner to group up with or just a friend who has similar interests that you can chat with? We've got you covered! Using the filter tools in the sidebar to your left, choose which options you want to filter by (age, school, experience, interests, etc). When you hit \"submit\", a bunch of fellow TAMU Datathon applicants will pop up below, most of whom probably have the same desire to connect as you do. Why not say hi? :smile:")
