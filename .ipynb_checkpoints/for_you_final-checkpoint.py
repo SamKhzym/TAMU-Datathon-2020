@@ -19,6 +19,7 @@ year = ('None','Fr', 'Ma', 'PhD', 'Sr', 'O', 'So', 'Jr')
 applications = pd.read_csv('intermediate_applications.csv')
 sk = pd.read_csv('skills.csv')
 
+st.sidebar.markdown("### Cluster Connections Filters")
 aoi = st.sidebar.selectbox("SELCET BY AREA OF INTEREST",areas)
 uni = st.sidebar.selectbox("SELCET BY UNIVERSITY",universities)
 grade = st.sidebar.selectbox("SELCET BY YEAR",year)
@@ -72,13 +73,16 @@ def get_app_workshop_data(index):
     clf = get_classifier()
     return clf.predict(applicant[applicant.columns[1:22]])
 
-def get_workshops(track, experience):
+def get_workshops(track, experience, include_difficult):
     workshop_list = []
     for i in range(len(workshops["track"])):
-        if workshops.iloc[i]["track"] == track and workshops.iloc[i]["difficulty"] <= experience:
+        if not include_difficult:
+            if workshops.iloc[i]["track"] == track and workshops.iloc[i]["difficulty"] <= experience:
+                workshop_list.append(workshops.iloc[i]["workshop_name"])
+        else:
             workshop_list.append(workshops.iloc[i]["workshop_name"])
             
-    random.shuffle(workshop_list)
+    random.Random(4).shuffle(workshop_list)
             
     if len(workshop_list) < 3: return workshop_list
     else: return workshop_list[0:3]
@@ -101,7 +105,8 @@ for i in range(len(workshops.index)):
 
 
 
-
+st.markdown("# TAMU DATATHON 2020 FOR YOU PAGE")
+st.markdown("###### Gopi Chand and Samuel Khzym")
 try:
     user_index = int(st.text_input("Enter user index"))
 except:
@@ -115,6 +120,7 @@ if user_index != None:
     ## Workshop Recommendations""")
     
     workshop_query = st.text_input("What workshops do you want to attend?")
+    advanced_diff = st.checkbox("Include workshops above your experience level?")
     if workshop_query != "":
         raw.at[user_index, "workshop_suggestions"] = workshop_query
     
@@ -123,10 +129,12 @@ if user_index != None:
     st.markdown("%s" % get_display_text(applicant))
     
     if type(raw.iloc[user_index]["workshop_suggestions"]) != float:
-        workshops = get_workshops(get_app_workshop_data(user_index), applicant["datascience_experience"])
+        workshops = get_workshops(get_app_workshop_data(user_index), applicant["datascience_experience"], advanced_diff)
         
         for i in range(len(workshops)):
             st.markdown("### • %s" % (workshops[i]))
+        if len(workshops) == 0:
+            st.markdown("### • Sorry, we couldn't find anything :(")
 
 st.markdown("""## Cluster Connections""")
 st.markdown("Trying to find a partner to group up with or just a friend who has similar interests that you can chat with? We've got you covered! Using the filter tools in the sidebar to your left, choose which options you want to filter by (age, school, experience, interests, etc). When you hit \"submit\", a bunch of fellow TAMU Datathon applicants will pop up below, most of whom probably have the same desire to connect as you do. Why not say hi? :smile:")
